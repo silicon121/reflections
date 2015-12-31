@@ -1,16 +1,19 @@
 What happens when you initialize a repository? Why do you need to do it?
+sets up the files to be added to the git instrument
 
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
-
+	staging makes the folders/files ready to be committed, working directory  is  a place where regular edits are made to the file, without any intension to commit the changes.
 How can you use the staging area to make sure you have one commit per logical
 change?
-
+	using git diff --staged
+	
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+creating a new branch for specific tasks
 
 How do the diagrams help you visualize the branch structure?
-
+helps identify  unreachable commits.
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
