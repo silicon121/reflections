@@ -1,1 +1,26 @@
 When would you want to use a remote repository rather than keeping all your work local?
+local machines may fail, 
+or you may  havr to work out a different machine for some odd reason.
+or more than one person may be working on the project.
+so its always beneficial to have a remote copy of your work.
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+	you may not want to merge your code unless you are cetain that it is stable. so doing the pulls manually give  you chance to work on some feature without  intreptions. 
+	
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+	fork: cloud concept: you have to sync your cloud copy to your local machine to get the forked information.
+		   keeps track of who was the original ownwer of the repository. and allows you to make a contribution to the original repository.
+	clone: locally resides in the machine: makes a copy of the git repo on your local machine. you cannot contribute to the original repository unless you are eplicitly listed as a contributor.
+	
+	branches: makes a seperate section of code  on your local machine. which you may later choose to merge with master branch of the project. used for fature enchance and bug fixes of collabrated project.
+	
+What is the benefit of having a copy of the last known state of the remote stored locally?
+helps to resolve conflicts when you pull down new files from github. 
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+	If more people are involved in a project it makes a lot of sense to use Git and Git Hub. For my personal projects I rather use only Git than Github. It is very unlikely that i will be sharing most of my personal projects with some one so for me it make a lot of sense to use only Git.
+	
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+If I want to add a new feature or change a process in some way I would use a new branch to do the changes; rather than using the master. So If some thing goes wrong on the new branch I will have the master branch as a back up, or a source to compare.
+when you are collabrating with two or more people it helpful to use branches. This will allow more people to work on the same project without stepping on each others toe. Also when more people git provides a method of combining all different versions of the project without a conflict.
